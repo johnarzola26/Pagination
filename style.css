@@ -6,16 +6,13 @@
   border-style: border-box;
 }
 
-body {
-  width: 120px;
-  margin: 0 auto;
-}
-
 .pagination-numbers {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 15px;
+  margin-top: 120px;
+  width: 1200pxpx;
 }
 .pagination-numbers a {
   text-decoration: none;
