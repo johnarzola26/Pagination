@@ -9,23 +9,28 @@
 .pagination-numbers {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   align-items: center;
   gap: 15px;
   margin-top: 120px;
-  width: 1200pxpx;
 }
-.pagination-numbers a {
+
+.pagination-numbers a:link,
+.pagination-numbers a:visited {
   text-decoration: none;
-  background-color: aquamarine;
+  color: #333;
   border: 1px solid rebeccapurple;
   border-radius: 50%;
   width: 24px;
   height: 24px;
   text-align: center;
+  padding: 10px;
+  font-size: larger;
+  font-weight: bold;
 }
 
-.arrow-right,
-.arrow-left {
-  width: 24px;
-  height: 24px;
+.pagination-numbers a:hover,
+.pagination-numbers a:active {
+  background-color: aqua;
+  box-shadow: 0 1px 10px 1px #333;
 }
